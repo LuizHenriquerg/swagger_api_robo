@@ -23,7 +23,7 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: TJ PJE
+      summary: TJ PJE ES
       requestBody:
         "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
@@ -42,7 +42,7 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: TJ ANTIGO
+      summary: TJ ANTIGO ES
       requestBody:
         "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
@@ -61,7 +61,7 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: TRE ANTIGO
+      summary: TRE ANTIGO ES
       requestBody:
         "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
@@ -80,7 +80,7 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: TJ PROJUDI
+      summary: TJ PROJUDI ES
       requestBody:
         "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
@@ -99,7 +99,7 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: TRT PJE
+      summary: TRT PJE ES
       requestBody:
         "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
@@ -118,7 +118,7 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: TJ UNIFICADO
+      summary: TJ UNIFICADO ES
       requestBody:
         "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
@@ -137,7 +137,7 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: JF EPROC
+      summary: JF EPROC ES
       requestBody:
         "$ref": "#/components/requestBodies/Processo"
       responses:
@@ -157,7 +157,7 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: TJ PJE
+      summary: TJ PJE MG
       requestBody:
         "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
@@ -176,7 +176,7 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: TJ ANTIGO
+      summary: TJ ANTIGO MG
       requestBody:
         "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
@@ -195,7 +195,7 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: TJ PROJUDI
+      summary: TJ PROJUDI MG
       requestBody:
         "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
@@ -214,7 +214,7 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: TRE ANTIGO
+      summary: TRE ANTIGO MG
       requestBody:
         "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
@@ -233,7 +233,7 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: TRT ANTIGO
+      summary: TRT ANTIGO MG
       requestBody:
         "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
@@ -252,7 +252,7 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: TRT PJE
+      summary: TRT PJE MG
       requestBody:
         "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
@@ -471,3 +471,7 @@ components:
                 menssagem: "tempo para de requisição excedido"
                 status: "erro"
       description: Rever descricao desse erro
+  
+  
+  
+  
