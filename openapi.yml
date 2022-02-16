@@ -1,0 +1,263 @@
+openapi: 3.0.1
+info:
+  title: API de Robos
+  description: Essa é a api de robos da extrato juridico
+  version: 1.0.0
+  termsOfService: https://extratojuridico.com
+servers:
+- url: https://api.robos.extratojuridico.com/api/v1
+  description: API de Produção
+- url: http://127.0.0.1:5000/api/v1
+  description: API de Testes
+tags:
+- name: "ES"
+  description: "Rotas do ES"
+- name: "RN"
+  description: "Rotas do RN"
+paths:
+  /captura/processo/sudeste/es/tj/pje:
+    post:
+      tags:
+        - "ES"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: PJE TJ
+      requestBody:
+        "$ref": "#/components/requestBodies/Processo"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          description: Erro
+  /captura/processo/sudeste/es/jf/pje:
+    post:
+      tags:
+        - "ES"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: PJE JF
+      requestBody:
+        "$ref": "#/components/requestBodies/Processo"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+  /captura/processo/sudeste/es/jf/esaj:
+    post:
+      tags:
+        - "ES"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: PJE JF
+      requestBody:
+        "$ref": "#/components/requestBodies/Processo"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+components:
+  securitySchemes:
+    headerAutenticacao:
+      type: apiKey
+      in: header
+      name: token
+      description: Token
+    Proxy:
+      type: apiKey
+      in: header
+      name: proxy
+      description: Proxy
+  requestBodies:
+    Processo:
+      content:
+        multipart/form-data:
+          schema:
+            type: object
+            properties:
+              numero_processo:
+                type: string
+              instancia:
+                type: integer
+  responses:
+    200:
+      content:
+        application/json:
+          examples:
+            EJ1:
+              value:   
+                status: "sucesso" 
+                codigo_requisicao: "ej1"
+                menssagem: "processo" 
+            EJ2:
+              value:   
+                codigo_requisicao: "ej2"
+                data_requisicao: "Wed, 16 Feb 2022 09:51:27 GMT"
+                headers_retorno_tribunal:
+                  Accept: "*/*"
+                  Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
+                  Cookie: "JSESSIONID=gBhJxUjPosbCWJ7mQ96lBwyd-pdfOGClNEdaC2qW.srv-corp-193-061;"
+                  Host: "sistemas.exemplo.br"
+                  Origin: "sistemas.exemplo.br"
+                  User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+                html_retorno_tribunal: <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exemplo</title></head><body><span>Não encontrado</span></body></html>
+                menssagem: "processo não Encontrado no sistema judicial" 
+                status: "erro" 
+            EJ3:
+              value:   
+                codigo_requisicao: "ej3"
+                data_requisicao: "Wed, 16 Feb 2022 09:51:27 GMT"
+                headers_retorno_tribunal:
+                  Accept: "*/*"
+                  Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
+                  Cookie: "JSESSIONID=gBhJxUjPosbCWJ7mQ96lBwyd-pdfOGClNEdaC2qW.srv-corp-193-061;"
+                  Host: "sistemas.exemplo.br"
+                  Origin: "sistemas.exemplo.br"
+                  User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+                html_retorno_tribunal: <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exemplo</title></head><body><span>Sistema indisponivel</span></body></html>
+                menssagem: "erro ao acessar o sistema judicial" 
+                status: "erro" 
+            EJ4:
+              value:   
+                codigo_requisicao: "ej4"
+                data_requisicao: "Wed, 16 Feb 2022 09:51:27 GMT"
+                headers_retorno_tribunal:
+                  Accept: "*/*"
+                  Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
+                  Cookie: "JSESSIONID=gBhJxUjPosbCWJ7mQ96lBwyd-pdfOGClNEdaC2qW.srv-corp-193-061;"
+                  Host: "sistemas.exemplo.br"
+                  Origin: "sistemas.exemplo.br"
+                  User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+                html_retorno_tribunal: <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exemplo</title></head><body><span>Captcha Incorreto</span></body></html>
+                menssagem: "resposta do captcha errada" 
+                status: "erro" 
+            EJ5:
+              value:   
+                codigo_requisicao: "ej5"
+                data_requisicao: "Wed, 16 Feb 2022 09:51:27 GMT"
+                headers_retorno_tribunal:
+                  Accept: "*/*"
+                  Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
+                  Cookie: "JSESSIONID=gBhJxUjPosbCWJ7mQ96lBwyd-pdfOGClNEdaC2qW.srv-corp-193-061;"
+                  Host: "sistemas.exemplo.br"
+                  Origin: "sistemas.exemplo.br"
+                  User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+                html_retorno_tribunal: <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exemplo</title></head><body><span>Erro</span></body></html>
+                menssagem: "o robo não conseguiu extrair os dados de forma correta, acione o suporte" 
+                status: "erro" 
+            EJ6:
+              value:   
+                codigo_requisicao: "ej6"
+                data_requisicao: "Wed, 16 Feb 2022 09:51:27 GMT"
+                headers_retorno_tribunal:
+                  Accept: "*/*"
+                  Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
+                  Cookie: "JSESSIONID=gBhJxUjPosbCWJ7mQ96lBwyd-pdfOGClNEdaC2qW.srv-corp-193-061;"
+                  Host: "sistemas.exemplo.br"
+                  Origin: "sistemas.exemplo.br"
+                  User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+                html_retorno_tribunal: <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exemplo</title></head><body><span>Erro</span></body></html>
+                menssagem: "erro ao realizar consulta proceussual" 
+                status: "erro" 
+            EJ10:
+              value:   
+                codigo_requisicao: "ej10"
+                data_requisicao: "Wed, 16 Feb 2022 09:51:27 GMT"
+                headers_retorno_tribunal:
+                  Accept: "*/*"
+                  Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
+                  Cookie: "JSESSIONID=gBhJxUjPosbCWJ7mQ96lBwyd-pdfOGClNEdaC2qW.srv-corp-193-061;"
+                  Host: "sistemas.exemplo.br"
+                  Origin: "sistemas.exemplo.br"
+                  User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+                html_retorno_tribunal: <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exemplo</title></head><body><span>403 Forbiden</span></body></html>
+                menssagem: "proxy utilizado para consulta retornando erro" 
+                status: "erro" 
+            EJ13:
+              value:
+                codigo_requisicao: "ej13"
+                menssagem: "para realizar a requisição é necessario enviar um proxy via headers" 
+                status: "erro" 
+            EJ14:
+              value:
+                codigo_requisicao: "ej14"
+                menssagem: "para realizar a requisição é necessario enviar um proxy no formato https://(seu proxy) ou http://(seu proxy)" 
+                status: "erro" 
+            EJ15:
+              value:
+                codigo_requisicao: "ej15"
+                menssagem: "é necessário informar um número de processo" 
+                status: "erro" 
+            EJ16:
+              value:
+                codigo_requisicao: "ej16"
+                menssagem: "numero sem formatação cnj" 
+                status: "erro" 
+            EJ17:
+              value:
+                codigo_requisicao: "ej17"
+                menssagem: "Informe todos os campos necessários para pesquisa" 
+                status: "erro" 
+            EJ18:
+              value:
+                codigo_requisicao: "ej18"
+                menssagem: "Instancia incorreta" 
+                status: "erro" 
+            EJ19:
+              value:   
+                codigo_requisicao: "ej19"
+                data_requisicao: "Wed, 16 Feb 2022 09:51:27 GMT"
+                headers_retorno_tribunal:
+                  Accept: "*/*"
+                  Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
+                  Cookie: "JSESSIONID=gBhJxUjPosbCWJ7mQ96lBwyd-pdfOGClNEdaC2qW.srv-corp-193-061;"
+                  Host: "sistemas.exemplo.br"
+                  Origin: "sistemas.exemplo.br"
+                  User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+                html_retorno_tribunal: <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exemplo</title></head><body><span>Segredo de Justiça</span></body></html>
+                menssagem: "processo se encontra em segredo de justiça" 
+                status: "erro" 
+      description: Requisição recebida com sucesso
+    403:
+      content:
+        application/json:
+          examples:
+            EJ11:
+              value:
+                codigo_requisicao: "ej11"
+                menssagem: "erro de segurança"
+                status: "erro"
+            EJ12:
+              value:
+                codigo_requisicao: "ej12"
+                menssagem: "token não pertence a nenhum usuario cadastrado"
+                status: "erro"
+      description: Erros relacionados a segurança
+    404:
+      content:
+        application/json:
+          examples:
+            EJ7:
+              value:
+                codigo_requisicao: "ej7"
+                menssagem: "url não encontrada"
+                status: "erro"
+      description: Erros relacionados a segurança
+    408:
+      content:
+        application/json:
+          examples:
+            EJ9:
+              value:
+                codigo_requisicao: "ej9"
+                menssagem: "tempo para de requisição excedido"
+                status: "erro"
+      description: Erros relacionados a segurança
+  
+  
+  
+  
