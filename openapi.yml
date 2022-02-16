@@ -14,6 +14,10 @@ tags:
   description: "Rotas do ES"
 - name: "MG"
   description: "Rotas do MG"
+- name: "RJ"
+  description: "Rotas do RJ"
+- name: "SP"
+  description: "Rotas do SP"
 paths:
   #ROTAS DO ES
   /captura/processo/sudeste/es/tj/pje:
@@ -255,6 +259,331 @@ paths:
       summary: TRT PJE MG
       requestBody:
         "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+# ROTAS RJ
+  /captura/processo/sudeste/rj/tj/antigo:
+    post:
+      tags:
+        - "RJ"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TJ ANTIGO RJ
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/rj/tj/projudi:
+    post:
+      tags:
+        - "RJ"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TJ PROJUDI RJ
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/rj/tj/pje:
+    post:
+      tags:
+        - "RJ"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TJ PJE RJ
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/rj/trt/antigo:
+    post:
+      tags:
+        - "RJ"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRT ANTIGO RJ
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/rj/trt/pje:
+    post:
+      tags:
+        - "RJ"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRT PJE RJ
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/rj/tre/antigo:
+    post:
+      tags:
+        - "RJ"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRT PJE RJ
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/rj/jf/eproc:
+    post:
+      tags:
+        - "RJ"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: JF EPROC RJ
+      requestBody:
+        "$ref": "#/components/requestBodies/Processo"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+# ROTAS SP
+  /captura/processo/sudeste/sp/tj/esaj:
+    post:
+      tags:
+        - "SP"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TJ ESAJ SP
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/sp/tj/prodesp:
+    post:
+      tags:
+        - "SP"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TJ PRODESP SP
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/sp/tre/pje:
+    post:
+      tags:
+        - "SP"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRE PJE SP
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/sp/tre/antigo:
+    post:
+      tags:
+        - "SP"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRE ANTIGO SP
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/sp/trt02/antigo:
+    post:
+      tags:
+        - "SP"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRT02 PJE SP
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/sp/trt02/pje:
+    post:
+      tags:
+        - "SP"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRT02 PJE SP
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/sp/trt15/pje:
+    post:
+      tags:
+        - "SP"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRT02 ANTIGO SP
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/sp/trt15/antigo:
+    post:
+      tags:
+        - "SP"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRT15 ANTIGO SP
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/sp/jf/antigo:
+    post:
+      tags:
+        - "SP"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: JF ANTIGO SP
+      requestBody:
+        "$ref": "#/components/requestBodies/Processo"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/sp/jf/pje:
+    post:
+      tags:
+        - "SP"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: JF PJE SP
+      requestBody:
+        "$ref": "#/components/requestBodies/Processo"
       responses:
         200:
           "$ref": "#/components/responses/200"
