@@ -45,21 +45,6 @@ paths:
           "$ref": "#/components/responses/200"
         403:
           "$ref": "#/components/responses/403"
-  /captura/processo/sudeste/es/jf/esaj:
-    post:
-      tags:
-        - "ES"
-      security:
-        - headerAutenticacao: []
-        - Proxy: [] 
-      summary: PJE JF
-      requestBody:
-        "$ref": "#/components/requestBodies/Processo"
-      responses:
-        200:
-          "$ref": "#/components/responses/200"
-        403:
-          "$ref": "#/components/responses/403"
 components:
   securitySchemes:
     headerAutenticacao:
