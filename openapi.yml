@@ -18,8 +18,11 @@ tags:
   description: "Rotas do RJ"
 - name: "SP"
   description: "Rotas do SP"
+- name: "AL"
+  description: "Rotas do AL"
 paths:
-  #ROTAS DO ES
+#ROTAS DO SUDESTE
+#ROTAS DO ES
   /captura/processo/sudeste/es/tj/pje:
     post:
       tags:
@@ -153,7 +156,7 @@ paths:
           "$ref": "#/components/responses/404"
         408:
           "$ref": "#/components/responses/408"
-  # ROTAS DO MG
+# ROTAS DO MG
   /captura/processo/sudeste/mg/tj/pje:
     post:
       tags:
@@ -593,6 +596,161 @@ paths:
           "$ref": "#/components/responses/404"
         408:
           "$ref": "#/components/responses/408"
+#ROTAS DO NORDESTE
+#ROTAS DO AL
+  /captura/processo/nordeste/al/jf/pje:
+    post:
+      tags:
+        - "AL"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: JF PJE AL
+      requestBody:
+        "$ref": "#/components/requestBodies/Processo"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/nordeste/al/tj/projudi:
+    post:
+      tags:
+        - "AL"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TJ PROJUDI AL
+      requestBody:
+        "$ref": "#/components/requestBodies/Processo"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/nordeste/al/tre/antigo:
+    post:
+      tags:
+        - "AL"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRE ANTIGO AL
+      requestBody:
+        "$ref": "#/components/requestBodies/Processo"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/nordeste/al/jf/tebas:
+    post:
+      tags:
+        - "AL"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: JF TEBAS AL
+      requestBody:
+        "$ref": "#/components/requestBodies/Processo"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/nordeste/al/jf/creta:
+    post:
+      tags:
+        - "AL"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: JF CRETA AL
+      requestBody:
+        "$ref": "#/components/requestBodies/Processo"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/nordeste/al/trt/pje:
+    post:
+      tags:
+        - "AL"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRT PJE AL
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/nordeste/al/tj/esaj:
+    post:
+      tags:
+        - "AL"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TJ ESAJ AL
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/nordeste/al/trt/antigo:
+    post:
+      tags:
+        - "AL"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRT ANTIGO AL
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+
 components:
   securitySchemes:
     headerAutenticacao:
@@ -800,7 +958,3 @@ components:
                 menssagem: "tempo para de requisição excedido"
                 status: "erro"
       description: Rever descricao desse erro
-  
-  
-  
-  
