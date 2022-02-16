@@ -12,9 +12,10 @@ servers:
 tags:
 - name: "ES"
   description: "Rotas do ES"
-- name: "RN"
-  description: "Rotas do RN"
+- name: "MG"
+  description: "Rotas do MG"
 paths:
+  #ROTAS DO ES
   /captura/processo/sudeste/es/tj/pje:
     post:
       tags:
@@ -22,22 +23,121 @@ paths:
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: PJE TJ
+      summary: TJ PJE
       requestBody:
-        "$ref": "#/components/requestBodies/Processo"
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
         200:
           "$ref": "#/components/responses/200"
         403:
-          description: Erro
-  /captura/processo/sudeste/es/jf/pje:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/es/tj/antigo:
     post:
       tags:
         - "ES"
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: PJE JF
+      summary: TJ ANTIGO
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/es/tre/antigo:
+    post:
+      tags:
+        - "ES"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRE ANTIGO
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/es/tj/projudi:
+    post:
+      tags:
+        - "ES"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TJ PROJUDI
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/es/trt/pje:
+    post:
+      tags:
+        - "ES"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRT PJE
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/es/tj/unificado:
+    post:
+      tags:
+        - "ES"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TJ UNIFICADO
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/es/jf/eproc:
+    post:
+      tags:
+        - "ES"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: JF EPROC
       requestBody:
         "$ref": "#/components/requestBodies/Processo"
       responses:
@@ -45,21 +145,125 @@ paths:
           "$ref": "#/components/responses/200"
         403:
           "$ref": "#/components/responses/403"
-  /captura/processo/sudeste/es/jf/esaj:
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  # ROTAS DO MG
+  /captura/processo/sudeste/mg/tj/pje:
     post:
       tags:
-        - "ES"
+        - "MG"
       security:
         - headerAutenticacao: []
         - Proxy: [] 
-      summary: PJE JF
+      summary: TJ PJE
       requestBody:
-        "$ref": "#/components/requestBodies/Processo"
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
       responses:
         200:
           "$ref": "#/components/responses/200"
         403:
           "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/mg/tj/antigo:
+    post:
+      tags:
+        - "MG"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TJ ANTIGO
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/mg/tj/projudi:
+    post:
+      tags:
+        - "MG"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TJ PROJUDI
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/mg/tre/antigo:
+    post:
+      tags:
+        - "MG"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRE ANTIGO
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/mg/trt/antigo:
+    post:
+      tags:
+        - "MG"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRT ANTIGO
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
+  /captura/processo/sudeste/mg/trt/pje:
+    post:
+      tags:
+        - "MG"
+      security:
+        - headerAutenticacao: []
+        - Proxy: [] 
+      summary: TRT PJE
+      requestBody:
+        "$ref": "#/components/requestBodies/ProcessoInstancia"
+      responses:
+        200:
+          "$ref": "#/components/responses/200"
+        403:
+          "$ref": "#/components/responses/403"
+        404:
+          "$ref": "#/components/responses/404"
+        408:
+          "$ref": "#/components/responses/408"
 components:
   securitySchemes:
     headerAutenticacao:
@@ -74,6 +278,16 @@ components:
       description: Proxy
   requestBodies:
     Processo:
+      content:
+        multipart/form-data:
+          schema:
+            type: object
+            properties:
+              numero_processo:
+                type: string
+              instancia:
+                type: integer
+    ProcessoInstancia:
       content:
         multipart/form-data:
           schema:
@@ -246,7 +460,7 @@ components:
                 codigo_requisicao: "ej7"
                 menssagem: "url não encontrada"
                 status: "erro"
-      description: Erros relacionados a segurança
+      description: NotFound
     408:
       content:
         application/json:
@@ -256,8 +470,4 @@ components:
                 codigo_requisicao: "ej9"
                 menssagem: "tempo para de requisição excedido"
                 status: "erro"
-      description: Erros relacionados a segurança
-  
-  
-  
-  
+      description: Rever descricao desse erro
