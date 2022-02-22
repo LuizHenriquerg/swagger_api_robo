@@ -1793,25 +1793,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-  /captura/processo/brasil/trf03/pje:
-    post:
-      tags:
-        - TRF
-      security:
-        - headerAutenticacao: []
-        - Proxy: []
-      summary: TRF03 PJE
-      requestBody:
-        $ref: '#/components/requestBodies/Processo'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '403':
-          $ref: '#/components/responses/403'
-        '404':
-          $ref: '#/components/responses/404'
-        '408':
-          $ref: '#/components/responses/408'
   /captura/processo/brasil/trf03/jef:
     post:
       tags:
@@ -2312,7 +2293,7 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-ROTAS DO AC
+#ROTAS DO AC
   /captura/processo/norte/ac/tj/esaj:
     post:
       tags:
