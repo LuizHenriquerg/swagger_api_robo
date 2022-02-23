@@ -56,6 +56,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/es/tj/antigo:
     post:
       tags:
@@ -75,6 +79,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/es/tre/antigo:
     post:
       tags:
@@ -94,6 +102,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/es/tj/projudi:
     post:
       tags:
@@ -113,6 +125,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/es/trt/pje:
     post:
       tags:
@@ -132,6 +148,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/es/tj/unificado:
     post:
       tags:
@@ -151,6 +171,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/es/jf/eproc:
     post:
       tags:
@@ -170,6 +194,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/mg/tj/pje:
     post:
       tags:
@@ -189,6 +217,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/mg/tj/antigo:
     post:
       tags:
@@ -208,6 +240,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/mg/tj/projudi:
     post:
       tags:
@@ -227,6 +263,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/mg/tre/antigo:
     post:
       tags:
@@ -246,6 +286,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/mg/trt/antigo:
     post:
       tags:
@@ -265,6 +309,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/mg/trt/pje:
     post:
       tags:
@@ -284,6 +332,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/rj/tj/antigo:
     post:
       tags:
@@ -303,6 +355,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/rj/tj/projudi:
     post:
       tags:
@@ -322,6 +378,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/sudeste/rj/tj/pje:
     post:
       tags:
@@ -341,6 +400,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sudeste/rj/trt/antigo:
     post:
       tags:
@@ -360,6 +423,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/sudeste/rj/trt/pje:
     post:
       tags:
@@ -379,6 +445,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/sudeste/rj/tre/antigo:
     post:
       tags:
@@ -398,6 +467,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/sudeste/rj/jf/eproc:
     post:
       tags:
@@ -417,6 +489,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/sudeste/sp/tj/esaj:
     post:
       tags:
@@ -436,6 +511,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/sudeste/sp/tj/prodesp:
     post:
       tags:
@@ -455,6 +533,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/sudeste/sp/tre/antigo:
     post:
       tags:
@@ -474,6 +555,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/sudeste/sp/trt02/antigo:
     post:
       tags:
@@ -493,6 +577,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/sudeste/sp/trt02/pje:
     post:
       tags:
@@ -512,6 +599,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/sudeste/sp/trt15/pje:
     post:
       tags:
@@ -531,6 +621,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/sudeste/sp/trt15/antigo:
     post:
       tags:
@@ -550,6 +643,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/sudeste/sp/jf/antigo:
     post:
       tags:
@@ -569,6 +665,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/sudeste/sp/jf/pje:
     post:
       tags:
@@ -588,6 +687,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/nordeste/al/jf/pje:
     post:
       tags:
@@ -607,6 +709,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/nordeste/al/tj/projudi:
     post:
       tags:
@@ -626,6 +731,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/nordeste/al/tre/antigo:
     post:
       tags:
@@ -645,6 +753,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/nordeste/al/jf/tebas:
     post:
       tags:
@@ -664,6 +775,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/nordeste/al/jf/creta:
     post:
       tags:
@@ -683,6 +797,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/nordeste/al/trt/pje:
     post:
       tags:
@@ -702,6 +819,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/nordeste/al/tj/esaj:
     post:
       tags:
@@ -721,6 +841,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/nordeste/al/trt/antigo:
     post:
       tags:
@@ -740,6 +863,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/nordeste/ba/tj/pje:
     post:
       tags:
@@ -759,6 +885,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/nordeste/ba/trt/pje:
     post:
       tags:
@@ -778,6 +907,9 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+        
   /captura/processo/nordeste/ba/tre/antigo:
     post:
       tags:
@@ -797,6 +929,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ba/tj/projudi:
     post:
       tags:
@@ -816,6 +950,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ba/tj/esaj:
     post:
       tags:
@@ -835,6 +971,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ce/tj/pje:
     post:
       tags:
@@ -854,6 +992,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ce/tj/esaj:
     post:
       tags:
@@ -873,6 +1013,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ce/jf/pje:
     post:
       tags:
@@ -892,6 +1034,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ce/jf/creta:
     post:
       tags:
@@ -911,6 +1055,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ce/jf/tebas:
     post:
       tags:
@@ -930,6 +1076,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ce/trt/pje:
     post:
       tags:
@@ -949,6 +1097,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ce/tre/antigo:
     post:
       tags:
@@ -968,6 +1118,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ma/tj/jurisconsult:
     post:
       tags:
@@ -987,6 +1139,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ma/tj/pje:
     post:
       tags:
@@ -1006,6 +1160,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ma/trt/pje:
     post:
       tags:
@@ -1025,6 +1181,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ma/tre/antigo:
     post:
       tags:
@@ -1044,6 +1202,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/ma/tj/projudi:
     post:
       tags:
@@ -1063,6 +1223,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pb/tj/antigo:
     post:
       tags:
@@ -1082,6 +1244,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pb/tj/projudi:
     post:
       tags:
@@ -1101,6 +1265,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pb/tj/pje:
     post:
       tags:
@@ -1120,6 +1286,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pb/jf/pje:
     post:
       tags:
@@ -1139,6 +1307,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pb/jf/creta:
     post:
       tags:
@@ -1158,6 +1328,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pb/jf/tebas:
     post:
       tags:
@@ -1177,6 +1349,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pb/trt/pje:
     post:
       tags:
@@ -1196,6 +1370,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pb/tre/antigo:
     post:
       tags:
@@ -1215,6 +1391,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pe/tj/pje:
     post:
       tags:
@@ -1234,6 +1412,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pe/jf/pje:
     post:
       tags:
@@ -1253,6 +1433,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pe/trt/pje:
     post:
       tags:
@@ -1272,6 +1454,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pe/jf/tebas:
     post:
       tags:
@@ -1291,6 +1475,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pe/jf/creta:
     post:
       tags:
@@ -1310,6 +1496,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pe/tj/antigo:
     post:
       tags:
@@ -1329,6 +1517,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pe/tre/antigo:
     post:
       tags:
@@ -1348,6 +1538,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pi/tj/etj:
     post:
       tags:
@@ -1367,6 +1559,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pi/tj/themis:
     post:
       tags:
@@ -1386,6 +1580,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pi/tj/pje:
     post:
       tags:
@@ -1405,6 +1601,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pi/trt/pje:
     post:
       tags:
@@ -1424,6 +1622,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pi/jf/antigo:
     post:
       tags:
@@ -1443,6 +1643,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/pi/tre/antigo:
     post:
       tags:
@@ -1462,6 +1664,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/rn/tj/pje:
     post:
       tags:
@@ -1481,6 +1685,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/rn/tj/esaj:
     post:
       tags:
@@ -1500,6 +1706,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/rn/jf/tebas:
     post:
       tags:
@@ -1519,6 +1727,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/rn/trt/pje:
     post:
       tags:
@@ -1538,6 +1748,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/rn/jf/pje:
     post:
       tags:
@@ -1557,6 +1769,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/rn/jf/creta:
     post:
       tags:
@@ -1576,6 +1790,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/rn/jf/projudi:
     post:
       tags:
@@ -1595,6 +1811,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/se/jf/pje:
     post:
       tags:
@@ -1614,6 +1832,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/se/jf/creta:
     post:
       tags:
@@ -1633,6 +1853,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/se/tre/antigo:
     post:
       tags:
@@ -1652,6 +1874,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/se/trt/pje:
     post:
       tags:
@@ -1671,6 +1895,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/se/jf/tebas:
     post:
       tags:
@@ -1690,6 +1916,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/nordeste/se/tj/antigo:
     post:
       tags:
@@ -1709,6 +1937,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/brasil/trf01/antigo:
     post:
       tags:
@@ -1728,6 +1958,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/brasil/trf01/pje:
     post:
       tags:
@@ -1747,6 +1979,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/brasil/trf03/jef:
     post:
       tags:
@@ -1766,6 +2000,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/brasil/trf03/pje:
     post:
       tags:
@@ -1785,6 +2021,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/brasil/trf03/antigo:
     post:
       tags:
@@ -1804,6 +2042,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/brasil/trf02/balcao:
     post:
       tags:
@@ -1823,6 +2063,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/brasil/trf05/pje:
     post:
       tags:
@@ -1842,6 +2084,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/brasil/trf05/antigo:
     post:
       tags:
@@ -1861,6 +2105,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/brasil/trf04/antigo:
     post:
       tags:
@@ -1880,6 +2126,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/brasil/unificado/seeu:
     post:
       tags:
@@ -1899,6 +2147,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/brasil/unificado/tse/pje:
     post:
       tags:
@@ -1918,6 +2168,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/brasil/superiores/tst/pje:
     post:
       tags:
@@ -1937,6 +2189,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/pr/tj/projudi:
     post:
       tags:
@@ -1956,6 +2210,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/pr/tj/antigo:
     post:
       tags:
@@ -1975,6 +2231,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/pr/jf/antigo:
     post:
       tags:
@@ -1994,6 +2252,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/pr/tj/pje:
     post:
       tags:
@@ -2013,6 +2273,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/pr/trt/pje:
     post:
       tags:
@@ -2032,6 +2294,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/pr/tre/antigo:
     post:
       tags:
@@ -2051,6 +2315,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/rs/jf/antigo:
     post:
       tags:
@@ -2070,6 +2336,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/rs/trt/pje:
     post:
       tags:
@@ -2089,6 +2357,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/rs/tre/antigo:
     post:
       tags:
@@ -2108,6 +2378,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/rs/tj/antigo:
     post:
       tags:
@@ -2127,6 +2399,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/rs/tj/eproc:
     post:
       tags:
@@ -2146,6 +2420,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/rs/tj/pje:
     post:
       tags:
@@ -2165,6 +2441,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/sc/jf/pje:
     post:
       tags:
@@ -2184,6 +2462,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/sc/trt/pje:
     post:
       tags:
@@ -2203,6 +2483,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/sc/tre/antigo:
     post:
       tags:
@@ -2222,6 +2504,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/sc/tj/esaj:
     post:
       tags:
@@ -2241,6 +2525,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ac/tj/esaj:
     post:
       tags:
@@ -2260,6 +2546,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ac/jf/pje:
     post:
       tags:
@@ -2279,6 +2567,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ac/trt/pje:
     post:
       tags:
@@ -2298,6 +2588,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ac/tre/antigo:
     post:
       tags:
@@ -2317,6 +2609,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ac/jf/antigo:
     post:
       tags:
@@ -2336,6 +2630,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ap/tj/tucujuris:
     post:
       tags:
@@ -2355,6 +2651,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ap/jf/pje:
     post:
       tags:
@@ -2374,6 +2672,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ap/trt/pje:
     post:
       tags:
@@ -2393,6 +2693,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ap/tre/antigo:
     post:
       tags:
@@ -2412,6 +2714,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ap/jf/antigo:
     post:
       tags:
@@ -2431,6 +2735,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ap/tj/pje:
     post:
       tags:
@@ -2450,6 +2756,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/am/tj/esaj:
     post:
       tags:
@@ -2469,6 +2777,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/am/jf/pje:
     post:
       tags:
@@ -2488,6 +2798,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/am/jf/antigo:
     post:
       tags:
@@ -2507,6 +2819,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/am/tre/antigo:
     post:
       tags:
@@ -2526,6 +2840,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/am/tj/projudi:
     post:
       tags:
@@ -2545,6 +2861,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/pa/tj/pje:
     post:
       tags:
@@ -2564,6 +2882,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/pa/tj/projudi:
     post:
       tags:
@@ -2583,6 +2903,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/pa/jf/pje:
     post:
       tags:
@@ -2602,6 +2924,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/pa/trt/pje:
     post:
       tags:
@@ -2621,6 +2945,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/pa/tre/antigo:
     post:
       tags:
@@ -2640,6 +2966,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/pa/jf/antigo:
     post:
       tags:
@@ -2659,6 +2987,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/pa/tj/antigo:
     post:
       tags:
@@ -2678,6 +3008,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ro/tj/pje:
     post:
       tags:
@@ -2697,6 +3029,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ro/tj/projudi:
     post:
       tags:
@@ -2716,6 +3050,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ro/jf/projudi:
     post:
       tags:
@@ -2735,6 +3071,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ro/trt/pje:
     post:
       tags:
@@ -2754,6 +3092,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ro/jf/antigo:
     post:
       tags:
@@ -2773,6 +3113,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ro/tre/antigo:
     post:
       tags:
@@ -2792,6 +3134,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/ro/tj/antigo:
     post:
       tags:
@@ -2811,6 +3155,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/rr/tj/pje:
     post:
       tags:
@@ -2830,6 +3176,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/rr/tj/projudi:
     post:
       tags:
@@ -2849,6 +3197,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/rr/tj/siscom:
     post:
       tags:
@@ -2868,6 +3218,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/rr/tre/antigo:
     post:
       tags:
@@ -2887,6 +3239,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/rr/jf/antigo:
     post:
       tags:
@@ -2906,6 +3260,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/rr/trt/pje:
     post:
       tags:
@@ -2925,6 +3281,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/to/tj/eproc:
     post:
       tags:
@@ -2944,6 +3302,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/to/tj/projudi:
     post:
       tags:
@@ -2963,6 +3323,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/to/trt/pje:
     post:
       tags:
@@ -2982,6 +3344,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/to/tre/antigo:
     post:
       tags:
@@ -3001,6 +3365,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/to/jf/pje:
     post:
       tags:
@@ -3020,6 +3386,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/to/jf/antigo:
     post:
       tags:
@@ -3039,6 +3407,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/norte/to/trt/antigo:
     post:
       tags:
@@ -3058,6 +3428,8 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
 components:
   securitySchemes:
     headerAutenticacao:
@@ -3591,6 +3963,26 @@ components:
     '403':
       content:
         application/json:
+          schema:
+            properties:
+              ej11:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej12:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
           examples:
             EJ11:
               value:
@@ -3627,6 +4019,17 @@ components:
     '408':
       content:
         application/json:
+          schema:
+            properties:
+              ej19:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
           examples:
             EJ9:
               value:
@@ -3634,3 +4037,24 @@ components:
                 menssagem: tempo para de requisição excedido
                 status: erro
       description: Rever descricao desse erro
+    '500':
+      content:
+        application/json:
+          schema:
+            properties:
+              ej8:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+          examples:
+            EJ8:
+              value:
+                codigo_requisicao: ej8
+                menssagem: erro interno
+                status: erro
+      description: Erro interno
