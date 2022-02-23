@@ -3072,21 +3072,22 @@ components:
       description: Proxy
   requestBodies:
     Processo:
-      required: true
       content:
         multipart/form-data:
           schema:
+            required:  # List the required properties here
+              - numero_processo
             type: object
             properties:
               numero_processo:
                 type: string
-              instancia:
-                type: integer
     ProcessoInstancia:
-      required: true
       content:
         multipart/form-data:
           schema:
+            required:  # List the required properties here
+              - numero_processo
+              - instancia
             type: object
             properties:
               numero_processo:
