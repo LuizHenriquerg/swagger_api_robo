@@ -455,25 +455,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-  /captura/processo/sudeste/sp/tre/pje:
-    post:
-      tags:
-        - SP
-      security:
-        - headerAutenticacao: []
-        - Proxy: []
-      summary: TRE PJE SP
-      requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '403':
-          $ref: '#/components/responses/403'
-        '404':
-          $ref: '#/components/responses/404'
-        '408':
-          $ref: '#/components/responses/408'
   /captura/processo/sudeste/sp/tre/antigo:
     post:
       tags:
@@ -1525,25 +1506,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-  /captura/processo/nordeste/rn/tre/pje:
-    post:
-      tags:
-        - RN
-      security:
-        - headerAutenticacao: []
-        - Proxy: []
-      summary: TRE PJE RN
-      requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '403':
-          $ref: '#/components/responses/403'
-        '404':
-          $ref: '#/components/responses/404'
-        '408':
-          $ref: '#/components/responses/408'
   /captura/processo/nordeste/rn/jf/tebas:
     post:
       tags:
@@ -1758,7 +1720,7 @@ paths:
   /captura/processo/brasil/trf01/antigo:
     post:
       tags:
-        - TRF
+        - '01'
       security:
         - headerAutenticacao: []
         - Proxy: []
@@ -1777,7 +1739,7 @@ paths:
   /captura/processo/brasil/trf01/pje:
     post:
       tags:
-        - TRF
+        - '01'
       security:
         - headerAutenticacao: []
         - Proxy: []
@@ -1796,7 +1758,7 @@ paths:
   /captura/processo/brasil/trf03/jef:
     post:
       tags:
-        - TRF
+        - '03'
       security:
         - headerAutenticacao: []
         - Proxy: []
@@ -1815,7 +1777,7 @@ paths:
   /captura/processo/brasil/trf03/pje:
     post:
       tags:
-        - TRF
+        - '03'
       security:
         - headerAutenticacao: []
         - Proxy: []
@@ -1834,7 +1796,7 @@ paths:
   /captura/processo/brasil/trf03/antigo:
     post:
       tags:
-        - TRF
+        - '03'
       security:
         - headerAutenticacao: []
         - Proxy: []
@@ -1854,7 +1816,7 @@ paths:
   /captura/processo/brasil/trf02/balcao:
     post:
       tags:
-        - TRF
+        - '02'
       security:
         - headerAutenticacao: []
         - Proxy: []
@@ -1873,7 +1835,7 @@ paths:
   /captura/processo/brasil/trf05/pje:
     post:
       tags:
-        - TRF
+        - '05'
       security:
         - headerAutenticacao: []
         - Proxy: []
@@ -1892,7 +1854,7 @@ paths:
   /captura/processo/brasil/trf05/antigo:
     post:
       tags:
-        - TRF
+        - '05'
       security:
         - headerAutenticacao: []
         - Proxy: []
@@ -1911,7 +1873,7 @@ paths:
   /captura/processo/brasil/trf04/antigo:
     post:
       tags:
-        - TRF
+        - '04'
       security:
         - headerAutenticacao: []
         - Proxy: []
@@ -2351,25 +2313,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-  /captura/processo/norte/ac/tre/pje:
-    post:
-      tags:
-        - AC
-      security:
-        - headerAutenticacao: []
-        - Proxy: []
-      summary: TRE PJE AC
-      requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '403':
-          $ref: '#/components/responses/403'
-        '404':
-          $ref: '#/components/responses/404'
-        '408':
-          $ref: '#/components/responses/408'
   /captura/processo/norte/ac/tre/antigo:
     post:
       tags:
@@ -2466,25 +2409,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-  /captura/processo/norte/ap/tre/pje:
-    post:
-      tags:
-        - AP
-      security:
-        - headerAutenticacao: []
-        - Proxy: []
-      summary: TRE PJE AP
-      requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '403':
-          $ref: '#/components/responses/403'
-        '404':
-          $ref: '#/components/responses/404'
-        '408':
-          $ref: '#/components/responses/408'
   /captura/processo/norte/ap/tre/antigo:
     post:
       tags:
@@ -2551,25 +2475,6 @@ paths:
         - headerAutenticacao: []
         - Proxy: []
       summary: TJ ESAJ AM
-      requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '403':
-          $ref: '#/components/responses/403'
-        '404':
-          $ref: '#/components/responses/404'
-        '408':
-          $ref: '#/components/responses/408'
-  /captura/processo/norte/am/tre/pje:
-    post:
-      tags:
-        - AM
-      security:
-        - headerAutenticacao: []
-        - Proxy: []
-      summary: TRE PJE AM
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
@@ -2734,25 +2639,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-  /captura/processo/norte/pa/tre/pje:
-    post:
-      tags:
-        - PA
-      security:
-        - headerAutenticacao: []
-        - Proxy: []
-      summary: TRE PJE PA
-      requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '403':
-          $ref: '#/components/responses/403'
-        '404':
-          $ref: '#/components/responses/404'
-        '408':
-          $ref: '#/components/responses/408'
   /captura/processo/norte/pa/tre/antigo:
     post:
       tags:
@@ -2887,25 +2773,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-  /captura/processo/norte/ro/tre/pje:
-    post:
-      tags:
-        - RO
-      security:
-        - headerAutenticacao: []
-        - Proxy: []
-      summary: TRE PJE RO
-      requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '403':
-          $ref: '#/components/responses/403'
-        '404':
-          $ref: '#/components/responses/404'
-        '408':
-          $ref: '#/components/responses/408'
   /captura/processo/norte/ro/jf/antigo:
     post:
       tags:
@@ -3021,25 +2888,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-  /captura/processo/norte/rr/tre/pje:
-    post:
-      tags:
-        - RR
-      security:
-        - headerAutenticacao: []
-        - Proxy: []
-      summary: TRE PJE RR
-      requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '403':
-          $ref: '#/components/responses/403'
-        '404':
-          $ref: '#/components/responses/404'
-        '408':
-          $ref: '#/components/responses/408'
   /captura/processo/norte/rr/tre/antigo:
     post:
       tags:
@@ -3144,25 +2992,6 @@ paths:
         - headerAutenticacao: []
         - Proxy: []
       summary: TRT PJE TO
-      requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '403':
-          $ref: '#/components/responses/403'
-        '404':
-          $ref: '#/components/responses/404'
-        '408':
-          $ref: '#/components/responses/408'
-  /captura/processo/norte/to/tre/pje:
-    post:
-      tags:
-        - TO
-      security:
-        - headerAutenticacao: []
-        - Proxy: []
-      summary: TRE PJE TO
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
@@ -3522,6 +3351,14 @@ components:
     '404':
       content:
         application/json:
+          schema:
+            properties:
+              codigo_requisicao:
+                type: string
+              menssagem:
+                type: string
+              status:
+                type: string
           examples:
             EJ7:
               value:
