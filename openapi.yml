@@ -7,8 +7,6 @@ info:
 servers:
   - url: https://api.robos.extratojuridico.com/api/v1
     description: API de Produção
-  - url: http://127.0.0.1:5000/api/v1
-    description: API de Testes
 tags:
   - name: ES
     description: Rotas do ES
