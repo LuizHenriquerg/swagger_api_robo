@@ -58,8 +58,6 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
-        '500':
-          $ref: '#/components/responses/500'
   /captura/processo/sudeste/es/tj/antigo:
     post:
       tags:
@@ -79,8 +77,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-        '500':
-          $ref: '#/components/responses/500'
         '500':
           $ref: '#/components/responses/500'
   /captura/processo/sudeste/es/tre/antigo:
@@ -104,8 +100,6 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
-        '500':
-          $ref: '#/components/responses/500'
   /captura/processo/sudeste/es/tj/projudi:
     post:
       tags:
@@ -125,8 +119,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-        '500':
-          $ref: '#/components/responses/500'
         '500':
           $ref: '#/components/responses/500'
   /captura/processo/sudeste/es/trt/pje:
@@ -150,8 +142,6 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
-        '500':
-          $ref: '#/components/responses/500'
   /captura/processo/sudeste/es/tj/unificado:
     post:
       tags:
@@ -171,8 +161,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-        '500':
-          $ref: '#/components/responses/500'
         '500':
           $ref: '#/components/responses/500'
   /captura/processo/sudeste/es/jf/eproc:
@@ -196,8 +184,6 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
-        '500':
-          $ref: '#/components/responses/500'
   /captura/processo/sudeste/mg/tj/pje:
     post:
       tags:
@@ -217,8 +203,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-        '500':
-          $ref: '#/components/responses/500'
         '500':
           $ref: '#/components/responses/500'
   /captura/processo/sudeste/mg/tj/antigo:
@@ -242,8 +226,6 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
-        '500':
-          $ref: '#/components/responses/500'
   /captura/processo/sudeste/mg/tj/projudi:
     post:
       tags:
@@ -263,8 +245,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-        '500':
-          $ref: '#/components/responses/500'
         '500':
           $ref: '#/components/responses/500'
   /captura/processo/sudeste/mg/tre/antigo:
@@ -288,8 +268,6 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
-        '500':
-          $ref: '#/components/responses/500'
   /captura/processo/sudeste/mg/trt/antigo:
     post:
       tags:
@@ -309,8 +287,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-        '500':
-          $ref: '#/components/responses/500'
         '500':
           $ref: '#/components/responses/500'
   /captura/processo/sudeste/mg/trt/pje:
@@ -334,8 +310,6 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
-        '500':
-          $ref: '#/components/responses/500'
   /captura/processo/sudeste/rj/tj/antigo:
     post:
       tags:
@@ -355,8 +329,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-        '500':
-          $ref: '#/components/responses/500'
         '500':
           $ref: '#/components/responses/500'
   /captura/processo/sudeste/rj/tj/projudi:
@@ -400,8 +372,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-        '500':
-          $ref: '#/components/responses/500'
         '500':
           $ref: '#/components/responses/500'
   /captura/processo/sudeste/rj/trt/antigo:
