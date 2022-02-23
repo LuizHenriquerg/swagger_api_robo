@@ -4021,7 +4021,7 @@ components:
         application/json:
           schema:
             properties:
-              ej19:
+              ej9:
                 type: object
                 properties:
                   codigo_requisicao:
