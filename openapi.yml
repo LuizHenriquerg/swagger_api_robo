@@ -835,7 +835,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-# ROTAS DO CE
   /captura/processo/nordeste/ce/tj/pje:
     post:
       tags:
@@ -969,7 +968,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS DO MA
   /captura/processo/nordeste/ma/tj/jurisconsult:
     post:
       tags:
@@ -1065,7 +1063,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS DO PB
   /captura/processo/nordeste/pb/tj/antigo:
     post:
       tags:
@@ -1218,7 +1215,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS DO PE
   /captura/processo/nordeste/pe/tj/pje:
     post:
       tags:
@@ -1352,7 +1348,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS DO PI
   /captura/processo/nordeste/pi/tj/etj:
     post:
       tags:
@@ -1467,7 +1462,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS DO RN
   /captura/processo/nordeste/rn/tj/pje:
     post:
       tags:
@@ -1601,7 +1595,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS DO SERGIPE
   /captura/processo/nordeste/se/jf/pje:
     post:
       tags:
@@ -1716,7 +1709,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS TRF
   /captura/processo/brasil/trf01/antigo:
     post:
       tags:
@@ -1812,7 +1804,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-
   /captura/processo/brasil/trf02/balcao:
     post:
       tags:
@@ -1889,7 +1880,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#UNIFICADO
   /captura/processo/brasil/unificado/seeu:
     post:
       tags:
@@ -1928,7 +1918,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#SUPERIORES
   /captura/processo/brasil/superiores/tst/pje:
     post:
       tags:
@@ -1948,7 +1937,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS DO SUL
   /captura/processo/sul/pr/tj/projudi:
     post:
       tags:
@@ -2063,7 +2051,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS DO RS
   /captura/processo/sul/rs/jf/antigo:
     post:
       tags:
@@ -2178,7 +2165,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS SC
   /captura/processo/sul/sc/jf/pje:
     post:
       tags:
@@ -2255,7 +2241,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS DO AC
   /captura/processo/norte/ac/tj/esaj:
     post:
       tags:
@@ -2351,7 +2336,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-# ROTAS DO AP
   /captura/processo/norte/ap/tj/tucujuris:
     post:
       tags:
@@ -2466,7 +2450,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS DO AM
   /captura/processo/norte/am/tj/esaj:
     post:
       tags:
@@ -2562,7 +2545,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS DO PA
   /captura/processo/norte/pa/tj/pje:
     post:
       tags:
@@ -2696,7 +2678,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS RONDONIA
   /captura/processo/norte/ro/tj/pje:
     post:
       tags:
@@ -2830,7 +2811,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS RORAIMA
   /captura/processo/norte/rr/tj/pje:
     post:
       tags:
@@ -2945,7 +2925,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-#ROTAS TO
   /captura/processo/norte/to/tj/eproc:
     post:
       tags:
@@ -3079,9 +3058,6 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
-
-
-
 components:
   securitySchemes:
     headerAutenticacao:
@@ -3119,6 +3095,14 @@ components:
     '200':
       content:
         application/json:
+          schema:
+            properties:
+              codigo_requisicao:
+                type: string
+              menssagem:
+                type: string
+              status:
+                type: string
           examples:
             EJ1:
               value:
@@ -3353,12 +3337,25 @@ components:
         application/json:
           schema:
             properties:
-              codigo_requisicao:
-                type: string
-              menssagem:
-                type: string
-              status:
-                type: string
+              ej1:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej2:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+
           examples:
             EJ7:
               value:
