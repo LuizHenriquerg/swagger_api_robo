@@ -4027,7 +4027,7 @@ components:
                 codigo_requisicao: ej7
                 menssagem: url não encontrada
                 status: erro
-      description: NotFound
+      description: Rota não existe na API
     '408':
       content:
         application/json:
@@ -4048,7 +4048,7 @@ components:
                 codigo_requisicao: ej9
                 menssagem: tempo para de requisição excedido
                 status: erro
-      description: Rever descricao desse erro
+      description: O tempo para retorno da requisição foi excedido
     '500':
       content:
         application/json:
