@@ -3097,12 +3097,176 @@ components:
         application/json:
           schema:
             properties:
-              codigo_requisicao:
-                type: string
-              menssagem:
-                type: string
-              status:
-                type: string
+              ej1:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+                  processo:
+                    type: object
+              ej2:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  data_requisicao:
+                    type: string
+                  headers_retorno_tribunal:
+                    type: string
+                  html_retorno_tribunal:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej3:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  data_requisicao:
+                    type: string
+                  headers_retorno_tribunal:
+                    type: string
+                  html_retorno_tribunal:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej4:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  data_requisicao:
+                    type: string
+                  headers_retorno_tribunal:
+                    type: string
+                  html_retorno_tribunal:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej5:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  data_requisicao:
+                    type: string
+                  headers_retorno_tribunal:
+                    type: string
+                  html_retorno_tribunal:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej6:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  data_requisicao:
+                    type: string
+                  headers_retorno_tribunal:
+                    type: string
+                  html_retorno_tribunal:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej10:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  data_requisicao:
+                    type: string
+                  headers_retorno_tribunal:
+                    type: string
+                  html_retorno_tribunal:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej13:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej14:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej15:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej16:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej17:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej18:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
+              ej19:
+                type: object
+                properties:
+                  codigo_requisicao:
+                    type: string
+                  data_requisicao:
+                    type: string
+                  headers_retorno_tribunal:
+                    type: string
+                  html_retorno_tribunal:
+                    type: string
+                  menssagem:
+                    type: string
+                  status:
+                    type: string
           examples:
             EJ1:
               value:
@@ -3337,7 +3501,7 @@ components:
         application/json:
           schema:
             properties:
-              ej1:
+              ej7:
                 type: object
                 properties:
                   codigo_requisicao:
@@ -3346,16 +3510,6 @@ components:
                     type: string
                   status:
                     type: string
-              ej2:
-                type: object
-                properties:
-                  codigo_requisicao:
-                    type: string
-                  menssagem:
-                    type: string
-                  status:
-                    type: string
-
           examples:
             EJ7:
               value:
