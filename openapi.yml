@@ -3108,6 +3108,112 @@ components:
                     type: string
                   processo:
                     type: object
+                    properties:
+                      andamentos:
+                        type: array
+                        items: 
+                          type: object
+                          properties:
+                            corpo:
+                              type: string
+                            data:
+                              type: string
+                            descricao:
+                              type: string
+                      ano:
+                        type: string
+                      area:
+                        type: string
+                      assunto:
+                        type: string
+                      classe:
+                        type: string
+                      colegiado:
+                        type: string
+                      comarca:
+                        type: string
+                      data_distribuicao:
+                        type: string
+                      estado:
+                        type: string
+                        properties:
+                          expedientes:
+                            type: array
+                            items: 
+                              type: object
+                              properties:
+                                data_ciencia:
+                                  type: string
+                                data_criacao:
+                                  type: string
+                                destinatario:
+                                  type: string
+                                fechado:
+                                  type: string
+                                meio:
+                                  type: string
+                                tipo:
+                                  type: string
+                      foro:
+                        type: string
+                      instancia:
+                        type: string
+                      juiz:
+                        type: string
+                      natureza:
+                        type: string
+                      numero:
+                        type: string
+                      numero_antigo:
+                        type: string
+                      orgao:
+                        type: string
+                      orgao_julgador:
+                        type: string
+                      outros_assuntos:
+                        type: array
+                        items:
+                          type: string
+                        properties:
+                          partes:
+                            type: array
+                            items: 
+                              type: object
+                              properties:
+                                advogados:
+                                  type: array
+                                  items:
+                                    type: object
+                                    properties:
+                                      categoria:
+                                        type: string
+                                      cpf_cnpf:
+                                        type: string
+                                      nome:
+                                        type: string
+                                      oab:
+                                        type: string
+                                categoria:
+                                  type: string
+                                cpf_cnpj:
+                                  type: string
+                                nome:
+                                  type: string
+                                polo:
+                                  type: string
+                      relator:
+                        type: string
+                      setor_justica:
+                        type: string
+                      sistema:
+                        type: string
+                      tribunal:
+                        type: string
+                      valor:
+                        type: string
+                      vara:
+                        type: string
+                            
               ej2:
                 type: object
                 properties:
