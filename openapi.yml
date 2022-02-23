@@ -3072,6 +3072,7 @@ components:
       description: Proxy
   requestBodies:
     Processo:
+      required: true
       content:
         multipart/form-data:
           schema:
@@ -3082,6 +3083,7 @@ components:
               instancia:
                 type: integer
     ProcessoInstancia:
+      required: true
       content:
         multipart/form-data:
           schema:
