@@ -2161,6 +2161,69 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
+  /captura/processo/brasil/superiores/tst/antigo:
+    post:
+      tags:
+        - SUPERIOR
+      security:
+        - headerAutenticacao: []
+        - Proxy: []
+      summary: TST ANTIGO
+      requestBody:
+        $ref: '#/components/requestBodies/Processo'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/brasil/superiores/stj/antigo:
+    post:
+      tags:
+        - SUPERIOR
+      security:
+        - headerAutenticacao: []
+        - Proxy: []
+      summary: STJ ANTIGO
+      requestBody:
+        $ref: '#/components/requestBodies/Processo'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/brasil/superiores/stf/antigo:
+    post:
+      tags:
+        - SUPERIOR
+      security:
+        - headerAutenticacao: []
+        - Proxy: []
+      summary: STF ANTIGO
+      requestBody:
+        $ref: '#/components/requestBodies/Processo'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/pr/tj/projudi:
     post:
       tags:
@@ -3240,27 +3303,6 @@ paths:
         - headerAutenticacao: []
         - Proxy: []
       summary: TRT PJE RR
-      requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '403':
-          $ref: '#/components/responses/403'
-        '404':
-          $ref: '#/components/responses/404'
-        '408':
-          $ref: '#/components/responses/408'
-        '500':
-          $ref: '#/components/responses/500'
-  /captura/processo/norte/to/tj/eproc:
-    post:
-      tags:
-        - TO
-      security:
-        - headerAutenticacao: []
-        - Proxy: []
-      summary: TJ EPROC TO
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
