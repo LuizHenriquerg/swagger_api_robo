@@ -1995,13 +1995,13 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
-  /captura/processo/brasil/trf01/antigo:
+  /captura/processo/brasil/trf1/antigo:
     post:
       tags:
         - '01'
       security:
         - headerAutenticacao: []
-      summary: TRF01 ANTIGO
+      summary: TRF1 ANTIGO
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
@@ -2017,13 +2017,13 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
-  /captura/processo/brasil/trf01/pje:
+  /captura/processo/brasil/trf1/pje:
     post:
       tags:
         - '01'
       security:
         - headerAutenticacao: []
-      summary: TRF01 PJE
+      summary: TRF1 PJE
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
