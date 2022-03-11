@@ -41,7 +41,6 @@ paths:
         - ES
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PJE ES
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -62,7 +61,6 @@ paths:
         - ES
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ ANTIGO ES
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -83,7 +81,6 @@ paths:
         - ES
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRE ANTIGO ES
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -104,7 +101,6 @@ paths:
         - ES
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PROJUDI ES
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -125,7 +121,6 @@ paths:
         - ES
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT PJE ES
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -146,7 +141,6 @@ paths:
         - ES
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ UNIFICADO ES
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -167,10 +161,11 @@ paths:
         - ES
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF EPROC ES
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -188,7 +183,6 @@ paths:
         - MG
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PJE MG
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -209,7 +203,6 @@ paths:
         - MG
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ ANTIGO MG
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -230,7 +223,6 @@ paths:
         - MG
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PROJUDI MG
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -251,7 +243,6 @@ paths:
         - MG
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRE ANTIGO MG
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -272,7 +263,6 @@ paths:
         - MG
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT ANTIGO MG
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -293,7 +283,6 @@ paths:
         - MG
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT PJE MG
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -314,7 +303,6 @@ paths:
         - RJ
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ ANTIGO RJ
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -335,7 +323,6 @@ paths:
         - RJ
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PROJUDI RJ
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -357,7 +344,6 @@ paths:
         - RJ
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PJE RJ
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -378,7 +364,6 @@ paths:
         - RJ
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT ANTIGO RJ
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -400,7 +385,6 @@ paths:
         - RJ
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT PJE RJ
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -422,7 +406,6 @@ paths:
         - RJ
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT PJE RJ
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -444,10 +427,11 @@ paths:
         - RJ
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF EPROC RJ
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -466,7 +450,6 @@ paths:
         - SP
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ ESAJ SP
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -488,7 +471,6 @@ paths:
         - SP
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PRODESP SP
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -501,16 +483,36 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+<<<<<<< HEAD
+  /captura/processo/sudeste/sp/tre/pje:
+    post:
+      tags:
+        - SP
+      security:
+        - headerAutenticacao: []
+      summary: TRE PJE SP
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+=======
         '500':
           $ref: '#/components/responses/500'
         
+>>>>>>> 065b1ebcb3c861a627e6b2de2595ad8af206a363
   /captura/processo/sudeste/sp/tre/antigo:
     post:
       tags:
         - SP
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRE ANTIGO SP
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -532,7 +534,6 @@ paths:
         - SP
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT02 PJE SP
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -554,7 +555,6 @@ paths:
         - SP
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT02 PJE SP
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -576,7 +576,6 @@ paths:
         - SP
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT02 ANTIGO SP
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -598,7 +597,6 @@ paths:
         - SP
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT15 ANTIGO SP
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -620,10 +618,11 @@ paths:
         - SP
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF ANTIGO SP
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -642,10 +641,11 @@ paths:
         - SP
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF PJE SP
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -664,10 +664,11 @@ paths:
         - AL
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF PJE AL
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -686,10 +687,11 @@ paths:
         - AL
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PROJUDI AL
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -708,10 +710,11 @@ paths:
         - AL
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRE ANTIGO AL
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -730,10 +733,11 @@ paths:
         - AL
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF TEBAS AL
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -752,10 +756,11 @@ paths:
         - AL
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF CRETA AL
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -774,7 +779,6 @@ paths:
         - AL
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT PJE AL
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -796,7 +800,6 @@ paths:
         - AL
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ ESAJ AL
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -818,7 +821,6 @@ paths:
         - AL
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT ANTIGO AL
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -840,7 +842,6 @@ paths:
         - BA
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PJE BA
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -862,7 +863,6 @@ paths:
         - BA
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT PJE BA
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -884,10 +884,11 @@ paths:
         - BA
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRE ANTIGO BA
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -905,10 +906,11 @@ paths:
         - BA
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PROJUDI BA
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -926,10 +928,11 @@ paths:
         - BA
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ ESAJ BA
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -947,7 +950,6 @@ paths:
         - CE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PJE CE
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -968,7 +970,6 @@ paths:
         - CE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ ESAJ CE
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -989,10 +990,11 @@ paths:
         - CE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF PJE CE
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1010,10 +1012,11 @@ paths:
         - CE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF CRETA CE
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1031,10 +1034,11 @@ paths:
         - CE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF TEBAS CE
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1052,7 +1056,6 @@ paths:
         - CE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT PJE CE
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1073,10 +1076,11 @@ paths:
         - CE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRE ANTIGO BA
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1094,7 +1098,6 @@ paths:
         - MA
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ JURISCONSULT MA
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1115,7 +1118,6 @@ paths:
         - MA
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PJE MA
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1136,7 +1138,6 @@ paths:
         - MA
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT PJE MA
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1157,10 +1158,11 @@ paths:
         - MA
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRE ANTIGO MA
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1178,10 +1180,11 @@ paths:
         - MA
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PROJUDI MA
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1199,7 +1202,6 @@ paths:
         - PB
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ ANTIGO PB
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1220,10 +1222,11 @@ paths:
         - PB
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PROJUDI PB
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1241,7 +1244,6 @@ paths:
         - PB
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PJE PB
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1262,10 +1264,11 @@ paths:
         - PB
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF PJE PB
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1283,10 +1286,11 @@ paths:
         - PB
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF CRETA PB
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1304,10 +1308,11 @@ paths:
         - PB
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF TEBAS PB
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1325,7 +1330,6 @@ paths:
         - PB
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT PJE PB
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1346,10 +1350,11 @@ paths:
         - PB
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRE ANTIGO PB
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1367,7 +1372,6 @@ paths:
         - PE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PJE PE
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1388,10 +1392,11 @@ paths:
         - PE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF PJE PE
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1409,7 +1414,6 @@ paths:
         - PE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT PJE PE
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1430,10 +1434,11 @@ paths:
         - PE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF TEBAS PE
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1451,10 +1456,11 @@ paths:
         - PE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF CRETA PE
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1472,7 +1478,6 @@ paths:
         - PE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ ANTIGO PE
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1493,10 +1498,11 @@ paths:
         - PE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRE ANTIGO PE
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1514,10 +1520,11 @@ paths:
         - PI
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ ETJ PI
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1535,10 +1542,11 @@ paths:
         - PI
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ THEMIS PI
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1556,7 +1564,6 @@ paths:
         - PI
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PJE PI
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1577,7 +1584,6 @@ paths:
         - PI
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT PJE PI
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1598,10 +1604,11 @@ paths:
         - PI
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF ANTIGO PI
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1619,10 +1626,11 @@ paths:
         - PI
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRE ANTIGO PI
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1640,7 +1648,6 @@ paths:
         - RN
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ PJE RN
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1661,7 +1668,6 @@ paths:
         - RN
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ ESAJ RN
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1674,18 +1680,40 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+<<<<<<< HEAD
+  /captura/processo/nordeste/rn/tre/pje:
+    post:
+      tags:
+        - RN
+      security:
+        - headerAutenticacao: []
+      summary: TRE PJE RN
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+=======
         '500':
           $ref: '#/components/responses/500'
+>>>>>>> 065b1ebcb3c861a627e6b2de2595ad8af206a363
   /captura/processo/nordeste/rn/jf/tebas:
     post:
       tags:
         - RN
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF TEBAS RN
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1703,7 +1731,6 @@ paths:
         - RN
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT PJE RN
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1724,10 +1751,11 @@ paths:
         - RN
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF PJE RN
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1745,10 +1773,11 @@ paths:
         - RN
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF CRETA RN
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1766,10 +1795,11 @@ paths:
         - RN
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF PROJUDI RN
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1787,10 +1817,11 @@ paths:
         - SE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF PJE SE
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1808,10 +1839,11 @@ paths:
         - SE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF CRETA SE
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1829,10 +1861,11 @@ paths:
         - SE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRE ANTIGO SE
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1850,7 +1883,6 @@ paths:
         - SE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TRT PJE SE
       requestBody:
         $ref: '#/components/requestBodies/ProcessoInstancia'
@@ -1871,10 +1903,11 @@ paths:
         - SE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: JF TEBAS SE
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1892,10 +1925,11 @@ paths:
         - SE
       security:
         - headerAutenticacao: []
-        - Proxy: []
       summary: TJ ANTIGO SE
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1905,6 +1939,10 @@ paths:
           $ref: '#/components/responses/404'
         '408':
           $ref: '#/components/responses/408'
+<<<<<<< HEAD
+
+
+=======
         '500':
           $ref: '#/components/responses/500'
   /captura/processo/brasil/trf01/antigo:
@@ -3440,6 +3478,7 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
+>>>>>>> 065b1ebcb3c861a627e6b2de2595ad8af206a363
 components:
   securitySchemes:
     headerAutenticacao:
@@ -3447,29 +3486,51 @@ components:
       in: header
       name: token
       description: Token
+<<<<<<< HEAD
+  parameters:
+      Proxy:      # Can be referenced via '#/components/parameters/offsetParam'
+        name: proxy
+        in: header
+        description: proxy para ser utilizado nas requisições
+        required: true
+        schema:
+          type: string
+=======
     Proxy:
       type: apiKey
       in: header
       name: proxy
       description: Proxy
+>>>>>>> 065b1ebcb3c861a627e6b2de2595ad8af206a363
   requestBodies:
     Processo:
       content:
         multipart/form-data:
           schema:
+<<<<<<< HEAD
+=======
             required:  # List the required properties here
               - numero_processo
+>>>>>>> 065b1ebcb3c861a627e6b2de2595ad8af206a363
             type: object
             properties:
               numero_processo:
                 type: string
+<<<<<<< HEAD
+              instancia:
+                type: integer
+=======
+>>>>>>> 065b1ebcb3c861a627e6b2de2595ad8af206a363
     ProcessoInstancia:
       content:
         multipart/form-data:
           schema:
+<<<<<<< HEAD
+=======
             required:  # List the required properties here
               - numero_processo
               - instancia
+>>>>>>> 065b1ebcb3c861a627e6b2de2595ad8af206a363
             type: object
             properties:
               numero_processo:
@@ -3480,6 +3541,8 @@ components:
     '200':
       content:
         application/json:
+<<<<<<< HEAD
+=======
           schema:
             properties:
               ej1:
@@ -3756,6 +3819,7 @@ components:
                     type: string
                   status:
                     type: string
+>>>>>>> 065b1ebcb3c861a627e6b2de2595ad8af206a363
           examples:
             EJ1:
               value:
