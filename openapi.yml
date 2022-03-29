@@ -4018,7 +4018,7 @@ components:
                   User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
                 html_retorno_tribunal: <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exemplo</title></head><body><span>Não encontrado</span></body></html>
                 menssagem: processo não Encontrado no sistema judicial
-                status: erro
+                status: sucesso
             EJ3:
               value:
                 codigo_requisicao: ej3
