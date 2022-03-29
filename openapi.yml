@@ -4133,6 +4133,11 @@ components:
                 html_retorno_tribunal: <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exemplo</title></head><body><span>Segredo de Justiça</span></body></html>
                 menssagem: processo se encontra em segredo de justiça
                 status: erro
+            EJ20:
+              value:
+                codigo_requisicao: ej20
+                menssagem: usuario inativo
+                status: erro
       description: Requisição recebida com sucesso
     '403':
       content:
