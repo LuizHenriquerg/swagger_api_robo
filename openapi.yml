@@ -3601,6 +3601,407 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
+# CENTRO OESTE
+  /captura/processo/centrooeste/mt/tj/pje:
+    post:
+      tags:
+        - MT
+      security:
+        - headerAutenticacao: []
+      summary: TJ PJE MT
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/mt/tj/antigo:
+    post:
+      tags:
+        - MT
+      security:
+        - headerAutenticacao: []
+      summary: TJ ANTIGO MT
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/mt/trt/pje:
+    post:
+      tags:
+        - MT
+      security:
+        - headerAutenticacao: []
+      summary: TRT PJE MT
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/mt/jf/pje:
+    post:
+      tags:
+        - MT
+      security:
+        - headerAutenticacao: []
+      summary: JF PJE MT
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/Processo'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/mt/jf/antigo:
+    post:
+      tags:
+        - MT
+      security:
+        - headerAutenticacao: []
+      summary: JF ANTIGO MT
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/Processo'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/mt/tre/antigo:
+    post:
+      tags:
+        - MT
+      security:
+        - headerAutenticacao: []
+      summary: TRE ANTIGO MT
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+# MS
+  /captura/processo/centrooeste/ms/tj/esaj:
+    post:
+      tags:
+        - MS
+      security:
+        - headerAutenticacao: []
+      summary: TJ ESAJ MS
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/ms/jf/antigo:
+    post:
+      tags:
+        - MS
+      security:
+        - headerAutenticacao: []
+      summary: JF ANTIGO MS
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/Processo'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/ms/trt/antigo:
+    post:
+      tags:
+        - MS
+      security:
+        - headerAutenticacao: []
+      summary: TRT ANTIGO MS
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/ms/tre/antigo:
+    post:
+      tags:
+        - MS
+      security:
+        - headerAutenticacao: []
+      summary: TRE ANTIGO MS
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+# GO
+  /captura/processo/centrooeste/go/tj/projudi:
+    post:
+      tags:
+        - GO
+      security:
+        - headerAutenticacao: []
+      summary: TJ PROJUDI GO
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/go/jf/pje:
+    post:
+      tags:
+        - GO
+      security:
+        - headerAutenticacao: []
+      summary: JF PJE GO
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/Processo'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/go/trt/pje:
+    post:
+      tags:
+        - GO
+      security:
+        - headerAutenticacao: []
+      summary: TRT PJE GO
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/df/tj/antigo:
+    post:
+      tags:
+        - DF
+      security:
+        - headerAutenticacao: []
+      summary: TJ ANTIGO GO
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/df/trt/pje:
+    post:
+      tags:
+        - DF
+      security:
+        - headerAutenticacao: []
+      summary: TRT PJE GO
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/df/tj/projudi:
+    post:
+      tags:
+        - DF
+      security:
+        - headerAutenticacao: []
+      summary: TJ PROJUDI GO
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/df/tj/pje:
+    post:
+      tags:
+        - DF
+      security:
+        - headerAutenticacao: []
+      summary: TJ PJE GO
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoInstancia'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+  /captura/processo/centrooeste/df/jf/pje:
+    post:
+      tags:
+        - DF
+      security:
+        - headerAutenticacao: []
+      summary: JF PJE GO
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/Processo'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
+
+
 components:
   securitySchemes:
     headerAutenticacao:
