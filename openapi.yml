@@ -1841,17 +1841,17 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
-  /captura/processo/nordeste/rn/jf/projudi:
+  /captura/processo/nordeste/rn/tj/projudi:
     post:
       tags:
         - RN
       security:
         - headerAutenticacao: []
-      summary: JF PROJUDI RN
+      summary: TJ PROJUDI RN
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -3013,7 +3013,7 @@ paths:
         - AM
       security:
         - headerAutenticacao: []
-      summary: TRE PROJUDI AM
+      summary: TJ PROJUDI AM
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
@@ -3227,13 +3227,13 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
-  /captura/processo/norte/ro/jf/projudi:
+  /captura/processo/norte/ro/tj/projudi:
     post:
       tags:
         - RO
       security:
         - headerAutenticacao: []
-      summary: JF PROJUDI RO
+      summary: TJ PROJUDI RO
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
