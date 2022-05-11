@@ -3227,28 +3227,6 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
-  /captura/processo/norte/ro/tj/projudi:
-    post:
-      tags:
-        - RO
-      security:
-        - headerAutenticacao: []
-      summary: TJ PROJUDI RO
-      parameters:
-        - $ref: '#/components/parameters/Proxy'
-      requestBody:
-        $ref: '#/components/requestBodies/Processo'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '403':
-          $ref: '#/components/responses/403'
-        '404':
-          $ref: '#/components/responses/404'
-        '408':
-          $ref: '#/components/responses/408'
-        '500':
-          $ref: '#/components/responses/500'
   /captura/processo/norte/ro/trt/pje:
     post:
       tags:
@@ -4020,7 +3998,7 @@ components:
   requestBodies:
     Processo:
       content:
-        multipart/form-data:
+        application/x-www-form-urlencoded:
           schema:
             required:  # List the required properties here
               - numero_processo
@@ -4030,7 +4008,7 @@ components:
                 type: string
     ProcessoInstancia:
       content:
-        multipart/form-data:
+        application/x-www-form-urlencoded:
           schema:
             required:  # List the required properties here
               - numero_processo
