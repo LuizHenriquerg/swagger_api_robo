@@ -45,7 +45,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -67,7 +67,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -199,7 +199,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -287,7 +287,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -309,7 +309,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -331,7 +331,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -353,7 +353,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -376,7 +376,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -858,7 +858,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -881,7 +881,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -993,7 +993,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1169,7 +1169,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1301,7 +1301,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1433,7 +1433,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -1719,7 +1719,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -2115,7 +2115,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoCaptcha'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -2225,7 +2225,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoCaptcha'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -2335,7 +2335,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoCaptcha'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -2357,7 +2357,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -2379,7 +2379,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoCaptcha'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -2467,7 +2467,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoCaptcha'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -2611,6 +2611,28 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
+  /captura/processo/sul/sc/jf/antigo:
+    post:
+      tags:
+        - SC
+      security:
+        - headerAutenticacao: []
+      summary: JF ANTIGO SC
+      parameters:
+        - $ref: '#/components/parameters/Proxy'
+      requestBody:
+        $ref: '#/components/requestBodies/ProcessoCaptcha'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '408':
+          $ref: '#/components/responses/408'
+        '500':
+          $ref: '#/components/responses/500'
   /captura/processo/sul/sc/trt/pje:
     post:
       tags:
@@ -2687,7 +2709,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -3017,7 +3039,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -3029,28 +3051,28 @@ paths:
           $ref: '#/components/responses/408'
         '500':
           $ref: '#/components/responses/500'
-  /captura/processo/norte/pa/tj/pje:
-    post:
-      tags:
-        - PA
-      security:
-        - headerAutenticacao: []
-      summary: TJ PJE PA
-      parameters:
-        - $ref: '#/components/parameters/Proxy'
-      requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '403':
-          $ref: '#/components/responses/403'
-        '404':
-          $ref: '#/components/responses/404'
-        '408':
-          $ref: '#/components/responses/408'
-        '500':
-          $ref: '#/components/responses/500'
+  #/captura/processo/norte/pa/tj/pje:
+  #  post:
+  #    tags:
+  #      - PA
+  #    security:
+  #      - headerAutenticacao: []
+  #    summary: TJ PJE PA
+  #    parameters:
+  #      - $ref: '#/components/parameters/Proxy'
+  #    requestBody:
+  #      $ref: '#/components/requestBodies/ProcessoInstancia'
+  #    responses:
+  #      '200':
+  #        $ref: '#/components/responses/200'
+  #      '403':
+  #        $ref: '#/components/responses/403'
+  #      '404':
+  #        $ref: '#/components/responses/404'
+  #      '408':
+  #        $ref: '#/components/responses/408'
+  #      '500':
+  #        $ref: '#/components/responses/500'
   /captura/processo/norte/pa/tj/projudi:
     post:
       tags:
@@ -3193,7 +3215,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -3347,7 +3369,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/Processo'
+        $ref: '#/components/requestBodies/ProcessoCaptcha'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -3590,7 +3612,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -3944,7 +3966,7 @@ paths:
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
-        $ref: '#/components/requestBodies/ProcessoInstancia'
+        $ref: '#/components/requestBodies/ProcessoCaptchaInstancia'
       responses:
         '200':
           $ref: '#/components/responses/200'
@@ -4006,6 +4028,33 @@ components:
             properties:
               numero_processo:
                 type: string
+    ProcessoCaptchaInstancia:
+      content:
+        application/x-www-form-urlencoded:
+          schema:
+            required:  # List the required properties here
+              - numero_processo
+              - instancia
+            type: object
+            properties:
+              numero_processo:
+                type: string
+              instancia:
+                type: integer
+              metodo_captcha:
+                type: integer
+    ProcessoCaptcha:
+      content:
+        application/x-www-form-urlencoded:
+          schema:
+            required:  # List the required properties here
+              - numero_processo
+            type: object
+            properties:
+              numero_processo:
+                type: string
+              metodo_captcha:
+                type: integer
     ProcessoInstancia:
       content:
         application/x-www-form-urlencoded:
